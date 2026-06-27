@@ -8,16 +8,16 @@
 	VLAN ID: 1000  
 	Interface: ether4 (например)  
 	Галочки Use service tag быть НЕ ДОЛЖНО!  
-	Comment: Внешний VLAN (S-VLAN)  
+	Comment: Внешний VLAN (S-VLAN) // S-VLAN расшифровывается как SERVICE VLAN.  
  
 3) Создаём второй VLAN (нижнюю метку)  
 	Name: VLAN100  
 	VLAN ID: 100  
 	Interface: VLAN1000 (пристёгиваем 100-й VLAN к 1000-му)  
 	Галочки Use service tag быть НЕ ДОЛЖНО!  
-	Comment: Внутренний VLAN (C-VLAN)  
+	Comment: Внутренний VLAN (C-VLAN) // C-VLAN расшифровывается как CUSTOMER (CLIENT) VLAN.  
 
-4) Пишем IP-шник:  
+4) Пишем IP-шник, маску, сетку и интерфейс:  
 	IP – Addresses – (+)  
 	Address: 10.0.0.1/24  
 	Network: 10.0.0.0  
