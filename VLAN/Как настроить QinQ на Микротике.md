@@ -7,7 +7,7 @@
 	Name: VLAN1000  
 	VLAN ID: 1000  
 	Interface: ether4 (например)  
-	Ставим галочку: Use service tag  
+	Галочки Use service tag быть НЕ ДОЛЖНО! 
 	Comment: Внешний VLAN (S-VLAN)  
  
 3) Создаём второй VLAN (нижнюю метку)  
